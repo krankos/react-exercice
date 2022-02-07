@@ -1,3 +1,11 @@
+# Adding images
+
+Images are in the src/assests folder and are added through the Media.jsx component.
+
+# Adding CSS
+
+CSS code is in styles/style.module.css file.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

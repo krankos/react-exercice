@@ -1,6 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import Firstcomp from "./components/Firstcomp";
+import Form from "./components/Form";
+import Red from "./components/Red";
+import Media from "./components/Media";
 function App() {
   return (
     <div className="App">
@@ -9,14 +12,11 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <Red />
+        <Firstcomp />
+        <Form />
+        <Media />
       </header>
     </div>
   );
